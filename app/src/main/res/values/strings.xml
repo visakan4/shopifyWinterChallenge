@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShopiCart</string>
+    <string name="button_text">Click for input</string>
+    <string name="menu_search_title">Search Tags</string>
+    <string name="retry">Retry</string>
+    <string name="error_message">No Internet Connectivity. Kindly connect to Internet</string>
+</resources>
