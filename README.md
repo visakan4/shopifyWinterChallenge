@@ -15,6 +15,7 @@ Product details page contains details such as *image of the product, product var
 ### Technology
 
 **Languages/Tools:** Java, Android Studio
+
 **Libraries/Frameworks:** OkHttp3, Picasso
 
 ### Architecture
