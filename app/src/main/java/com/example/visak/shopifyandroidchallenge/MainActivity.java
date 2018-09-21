@@ -41,6 +41,13 @@ public class MainActivity extends AppCompatActivity {
     public static ArrayList<String> tagArrayList = new ArrayList<>();
     public static JSONArray productList;
 
+    /**
+     *
+     * This method is used to check if the device has internet connectivity
+     *
+     * @return boolean (true if the device is connected to wifi or mobile, false if it does not have connectivity)
+     */
+
     private boolean checkInternetConnectivity(){
         boolean wifiConnected = false;
         boolean mobileConnected = false;
@@ -59,6 +66,15 @@ public class MainActivity extends AppCompatActivity {
         return wifiConnected || mobileConnected;
     }
 
+    /**
+     *
+     * Iterates through the variants of a product and determines the total available products in the inventory
+     *
+     * @param inventory
+     * @return number of products available in the inventory
+     * @throws JSONException
+     */
+
     private int getInventoryAmount(JSONArray inventory) throws JSONException {
         int length = inventory.length();
         int totalCount = 0;
@@ -68,6 +84,15 @@ public class MainActivity extends AppCompatActivity {
         }
         return totalCount;
     }
+
+    /**
+     *
+     * Iterates through the product variants and creates an arraylist of product variants
+     *
+     * @param variants
+     * @return An arrayList of ProductVariants
+     * @throws JSONException
+     */
 
     private ArrayList<ProductVariants> getProductVariants(JSONArray variants) throws JSONException{
         int variantsLength = variants.length();
@@ -87,6 +112,14 @@ public class MainActivity extends AppCompatActivity {
         return variantsArrayList;
     }
 
+    /**
+     *
+     * Iterates through the products and generates an arraylist of tags
+     *
+     * @param tag
+     * @return an arraylist of unique tags
+     * @throws JSONException
+     */
 
     private ArrayList<Product> getTagSpecificProducts(String tag) throws JSONException {
         ArrayList<Product> productDetails = new ArrayList<>();
@@ -101,6 +134,14 @@ public class MainActivity extends AppCompatActivity {
         return productDetails;
     }
 
+
+    /**
+     *
+     * Calls a request to the API and if successful parses the response JSON.
+     * Sets the values to the ListAdapter.
+     *
+     * @throws IOException
+     */
 
     private void getInput() throws IOException {
         Request request= new Request.Builder().url("https://shopicruit.myshopify.com/admin/products.json?page=1&access_token=c32313df0d0ef512ca64d5b336a0d7c6").build();
@@ -156,6 +197,14 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     *
+     *
+     * Invoked on Activity Creation. Set the views and invokes the API call
+     *
+     * @param savedInstanceState
+     */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -204,6 +253,12 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Inflates the menu items and defines the onQueryTextListener for the items
+     *
+     * @param menu
+     * @return false
+     */
 
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater = getMenuInflater();

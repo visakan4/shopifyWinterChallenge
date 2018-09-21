@@ -8,7 +8,7 @@
         android:id="@+id/product_icon"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:contentDescription="productIcon"
+        android:contentDescription="@string/image_description"
         android:padding="5dp" />
 
     <LinearLayout android:layout_width="match_parent"
@@ -17,39 +17,36 @@
 
         <TextView
             android:id="@+id/productName"
-            android:textSize="18sp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_marginStart="2dp"
             android:layout_marginTop="5dp"
             android:padding="2dp"
-            android:textColor="#000"
-        />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textColor="#000" />
 
         <TextView
             android:id="@+id/productVariants"
-            android:textSize="16sp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_marginStart="2dp"
             android:layout_marginTop="5dp"
             android:padding="2dp"
-            android:textColor="#000"
-        />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp"
+            android:textColor="#000" />
 
         <TextView
             android:id="@+id/inventoryQuantity"
-            android:textSize="16sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
-            android:textColor="#000"
             android:layout_marginStart="2dp"
-        />
+            android:padding="2dp"
+            android:textSize="16sp"
+            android:textColor="#000" />
 
     </LinearLayout>
 

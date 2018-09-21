@@ -10,6 +10,15 @@ import java.util.ArrayList;
 public class ProductActivity extends AppCompatActivity {
 
     ListView productListView;
+
+    /**
+     * Product Activity
+     *
+     * List view which contains the products
+     *
+     * @param savedInstanceState
+     */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -4,6 +4,16 @@ import java.io.Serializable;
 
 /**
  * Created by visak on 2018-09-20.
+ *
+ * Product Variants class
+ *
+ * Member Variables
+ *      1) title - Title of the variant
+ *      2) price - Price of the variant
+ *      3) inventoryQuantity - Available inventory quantity
+ *      4) weight - Weight of the variant
+ *      5) weightUnit - Measuring variant of the variants
+ *
  */
 
 public class ProductVariants implements Serializable{

@@ -16,6 +16,9 @@ import java.util.Locale;
 
 /**
  * Created by visak on 2018-09-19.
+ *
+ * TagAdapter helps in setting the tagValues to the ListView
+ *
  */
 
 public class TagAdapter extends ArrayAdapter {
@@ -48,6 +51,14 @@ public class TagAdapter extends ArrayAdapter {
         textView.setText(tags.get(position));
         return view;
     }
+
+
+    /**
+     *
+     * Filters the text based on a value and sets up the listView based on it
+     *
+     * @param filterText
+     */
 
     public void filter(String filterText){
         filterText = filterText.toLowerCase(Locale.getDefault());

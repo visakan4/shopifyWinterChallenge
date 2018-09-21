@@ -18,6 +18,11 @@ import java.util.ArrayList;
 
 /**
  * Created by visak on 2018-09-20.
+ *
+ * ProductAdapter
+ *
+ * Sets the product values to the ListView Adapter
+ *
  */
 
 public class ProductAdapter extends ArrayAdapter<Product> {

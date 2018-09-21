@@ -5,7 +5,17 @@ import java.util.ArrayList;
 
 /**
  * Created by visak on 2018-09-20.
+ *
+ * Product - Class
+ *
+ * Memeber variables
+ *  1) productName - Name of the product
+ *  2) imageUrl - URL of the product image
+ *  3) inventoryQuantity - total available quantity in the inventory
+ *  4) productVariants - Variants of the product
+ *
  */
+
 
 public class Product implements Serializable{
 
@@ -14,6 +24,15 @@ public class Product implements Serializable{
     String imageUrl;
     ArrayList<ProductVariants> productVariants;
 
+    /**
+     *
+     * Constructor - Creates a product with the following memeber variables
+     *
+     * @param productName
+     * @param inventryQuantity
+     * @param imageUrl
+     * @param productVariants
+     */
 
     public Product(String productName, int inventryQuantity, String imageUrl, ArrayList<ProductVariants> productVariants){
         this.productName = productName;
@@ -21,6 +40,11 @@ public class Product implements Serializable{
         this.imageUrl = imageUrl;
         this.productVariants = productVariants;
     }
+
+    /**
+     * Getters and Setters
+     *
+     */
 
     public void setProductName(String productName) {
         this.productName = productName;

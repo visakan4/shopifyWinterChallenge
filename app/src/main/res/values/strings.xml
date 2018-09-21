@@ -4,4 +4,5 @@
     <string name="menu_search_title">Search Tags</string>
     <string name="retry">Retry</string>
     <string name="error_message">No Internet Connectivity. Kindly connect to Internet</string>
+    <string name="image_description">productIcon</string>
 </resources>
