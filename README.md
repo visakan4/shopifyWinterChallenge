@@ -20,6 +20,7 @@ Product details page contains details such as *image of the product, product var
 
 ### Architecture
 
+![Architecture](https://github.com/visakan4/shopifyWinterChallenge/blob/master/readMeImages/architecture.PNG "Flowchart")
 
 ### Output
 
