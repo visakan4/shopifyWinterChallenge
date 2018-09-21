@@ -24,8 +24,14 @@ Product details page contains details such as *image of the product, product var
 
 ### Output
 
+![Tag List](https://github.com/visakan4/shopifyWinterChallenge/blob/master/readMeImages/tagList.png "Tag List")
+![Tag Seach](https://github.com/visakan4/shopifyWinterChallenge/blob/master/readMeImages/tagSearch.png "Tag search")
+![Product List](https://github.com/visakan4/shopifyWinterChallenge/blob/master/readMeImages/productList.png "Product List")
+![Error Message and Retry](https://github.com/visakan4/shopifyWinterChallenge/blob/master/readMeImages/ErrorMessage.png "Error Message")
 
 ### Setup
 
 
 ### Credits
+
+Icon made by [Freepik](https://www.freepik.com/) from [Flaticon](www.flaticon.com)
