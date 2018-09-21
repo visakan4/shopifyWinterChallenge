@@ -1,4 +1,4 @@
-# Application Name: ShopiCart
+# ShopiCart
 
 ## Shopify Mobile (Android) Developer Intern (Winter 2019) Challenge
 
