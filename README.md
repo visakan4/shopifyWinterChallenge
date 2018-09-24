@@ -24,9 +24,23 @@ Product details page contains details such as *image of the product, product var
 
 ### Output
 
+### Tag Page
+
 ![Tag List](https://github.com/visakan4/shopifyWinterChallenge/blob/master/readMeImages/tagList.png "TagList")
-![Tag Seach](https://github.com/visakan4/shopifyWinterChallenge/blob/master/readMeImages/tagSearch.png "Tag search")
+
+### Tag Search
+
+![Tag Seach](https://github.com/visakan4/shopifyWinterChallenge/blob/master/readMeImages/tagSearch%20(2).png "Tag search")
+
+### Product List 
+
+### Part 1:
 ![Product List](https://github.com/visakan4/shopifyWinterChallenge/blob/master/readMeImages/productList.png "Product List")
+
+### Part 2(Continued):
+![Product List2](https://github.com/visakan4/shopifyWinterChallenge/blob/master/readMeImages/aerodynamic1.png "Product List2")
+
+### Product Error Message:
 ![Error Message and Retry](https://github.com/visakan4/shopifyWinterChallenge/blob/master/readMeImages/ErrorMessage.png "Error Message")
 
 ### Setup
@@ -36,6 +50,8 @@ Product details page contains details such as *image of the product, product var
  * In Android Studio, File ---> Open ----> Navigate to the file location
  * Build the application
  * Run the application once the build is successful.
+
+If incase AppCompat Activity does not get resolved. Check this [link](https://stackoverflow.com/questions/29199891/cannot-resolve-symbol-appcompatactivity)
 
 ### Credits
 
